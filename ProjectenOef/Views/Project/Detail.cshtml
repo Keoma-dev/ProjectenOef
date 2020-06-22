@@ -1,0 +1,16 @@
+﻿@model ProjectenOef.Models.ProjectDetailViewModel
+
+<label>Title</label>
+<p>@Model.Title</p>
+
+<label>Description</label>
+<p>@Model.Description</p>
+
+<label>Status</label>
+<p>@Model.ProjectStatus</p>
+
+<label>Tags</label>
+@foreach (var projectTag in Model.ProjectTags)
+{
+    <li>@projectTag</li>
+}

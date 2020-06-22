@@ -1,0 +1,25 @@
+﻿@model ProjectenOef.Models.ProjectCreateViewModel
+
+    <form asp-controller="Project" asp-action="Create" method="post">
+        <div class="form-group">
+            <label asp-for="Title"></label>
+            <input class="form-control" asp-for="Title" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description"></label>
+            <input class="form-control" asp-for="Description" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SelectedProjectStatus"></label>
+            <select class="form-control" asp-for="SelectedProjectStatus" asp-items="@Model.ProjectStatuses"></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SelectedTags"></label>
+            <select multiple class="form-control" asp-for="SelectedTags" asp-items="@Model.Tags"></select>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Create Project</button>
+    </form>
