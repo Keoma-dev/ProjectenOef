@@ -1,6 +1,6 @@
-﻿@model ProjectenOef.Models.ProjectCreateViewModel
+﻿@model ProjectenOef.Models.ProjectEditViewModel
 
-    <form asp-controller="Project" asp-action="Create" method="post" enctype="multipart/form-data">
+    <form asp-controller="Project" asp-action="Edit" method="post">
         <div class="form-group">
             <label asp-for="Title"></label>
             <input class="form-control" asp-for="Title" />
@@ -26,5 +26,5 @@
             <input class="form-control" asp-for="Photo" />
         </div>
 
-        <button class="btn btn-primary" type="submit">Create Project</button>
+        <button class="btn btn-primary" type="submit">Edit Project</button>
     </form>

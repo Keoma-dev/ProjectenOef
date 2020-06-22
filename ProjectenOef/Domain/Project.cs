@@ -15,6 +15,7 @@ namespace ProjectenOef.Domain
         public ProjectStatus ProjectStatus { get; set; }
         public int ProjectStatusId { get; set; }
         public ICollection<ProjectTag> ProjectTags { get; set; }
+        
 
 
     }

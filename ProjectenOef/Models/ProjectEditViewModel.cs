@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace ProjectenOef.Models
 {
-    public class ProjectCreateViewModel
+    public class ProjectEditViewModel
     {
+        
         public string Title { get; set; }
         public string Description { get; set; }
         public List<SelectListItem> ProjectStatuses { get; set; } = new List<SelectListItem>();

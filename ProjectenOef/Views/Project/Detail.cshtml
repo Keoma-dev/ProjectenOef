@@ -1,16 +1,24 @@
 ﻿@model ProjectenOef.Models.ProjectDetailViewModel
 
-<label>Title</label>
+<strong>Title</strong>
 <p>@Model.Title</p>
 
-<label>Description</label>
+<strong>Description</strong>
 <p>@Model.Description</p>
 
-<label>Status</label>
+<strong>Status</strong>
 <p>@Model.ProjectStatus</p>
 
-<label>Tags</label>
+<strong>Tags</strong>
 @foreach (var projectTag in Model.ProjectTags)
 {
     <li>@projectTag</li>
 }
+
+<strong>Photo</strong>
+<p><img src="@Model.PhotoUrl" /></p>
+
+<p>
+    <a asp-controller="Project" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+    <a asp-controller="Project" asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+</p>

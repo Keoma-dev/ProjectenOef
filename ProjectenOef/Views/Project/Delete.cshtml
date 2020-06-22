@@ -1,0 +1,10 @@
+﻿@model ProjectenOef.Models.ProjectDeleteViewModel
+
+Are you sure you want to delete the following project:
+<li>@Model.Title</li>
+
+<form asp-controller="Project" asp-action="ConfirmDelete" method="post" asp-route-id="@Model.Id"><button class="btn btn-primary" type="submit">Delete</button></form>
+<p>
+    
+    <a asp-controller="Project" asp-action="Index">Back</a>
+</p>

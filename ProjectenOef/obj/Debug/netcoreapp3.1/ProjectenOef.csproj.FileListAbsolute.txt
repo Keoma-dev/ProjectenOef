@@ -200,3 +200,5 @@ C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Ra
 C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Create.cshtml.g.cs
 C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Index.cshtml.g.cs
 C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Detail.cshtml.g.cs
+C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Edit.cshtml.g.cs
+C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Delete.cshtml.g.cs
