@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection.Metadata.Ecma335;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -62,6 +63,7 @@ namespace ProjectenOef.Controllers
             return View(create);
         }
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Create(ProjectCreateViewModel createProject)
         {
             Project newProject = new Project()
@@ -137,6 +139,7 @@ namespace ProjectenOef.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Edit(ProjectEditViewModel editView, int id)
         {
             Project projectFromDb = await _projectDbContext.Projects
@@ -187,6 +190,7 @@ namespace ProjectenOef.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> ConfirmDelete(int id)
         {
             Project projectFromDb = await _projectDbContext.Projects.FirstOrDefaultAsync(p => p.Id == id);

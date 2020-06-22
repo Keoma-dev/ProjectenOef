@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ProjectenOef.Database
 {
-    public class ProjectDbContext : IdentityDbContext<IdentityUser>
+    public class ProjectDbContext : IdentityDbContext<ProjectAppUser>
     {
         public ProjectDbContext(DbContextOptions<ProjectDbContext> options) : base(options)
         {

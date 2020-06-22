@@ -158,6 +158,14 @@ C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Pr
 C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\ProjectenOef.dll
 C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\ProjectenOef.pdb
 C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\ProjectenOef.genruntimeconfig.cache
+C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Create.cshtml.g.cs
+C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Index.cshtml.g.cs
+C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Detail.cshtml.g.cs
+C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Edit.cshtml.g.cs
+C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Delete.cshtml.g.cs
 C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
 C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
 C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
@@ -194,11 +202,3 @@ C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Ra
 C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
 C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
 C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
-C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
-C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
-C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Create.cshtml.g.cs
-C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Index.cshtml.g.cs
-C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Detail.cshtml.g.cs
-C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Edit.cshtml.g.cs
-C:\Users\Keoma\source\repos\ProjectenOef\ProjectenOef\obj\Debug\netcoreapp3.1\Razor\Views\Project\Delete.cshtml.g.cs

@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
-using ProjectenOef.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ProjectenOef.Database;
+using ProjectenOef.Domain;
 
 namespace ProjectenOef
 {
@@ -30,8 +30,7 @@ namespace ProjectenOef
         {
             services.AddDbContext<ProjectDbContext>(options =>
                 options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ProjectenDatabase;Trusted_Connection=True;MultipleActiveResultSets=true"));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ProjectDbContext>();
+            services.AddDefaultIdentity<ProjectAppUser>().AddEntityFrameworkStores<ProjectDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
